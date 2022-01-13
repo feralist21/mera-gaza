@@ -1,8 +1,8 @@
 {
-  "name": "template-gulp",
+  "name": "mera-gaza",
   "private": true,
   "version": "1.0.0",
-  "description": "Заготовка gulpfile",
+  "description": "",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
