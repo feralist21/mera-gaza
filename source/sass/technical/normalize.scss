@@ -1,0 +1,61 @@
+.headers *,
+.headers *::before,
+.headers *::after,
+.mains *,
+.mains *::before,
+.mains *::after,
+.footers *,
+.footers *::before,
+.footers *::after,
+.modal *,
+.modal *::before,
+.modal *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+.headers,
+.mains,
+.footers {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.33;
+}
+
+@media (max-width: 576px) {
+  .headers,
+  .mains,
+  .footers {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p {
+  margin: 10px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 20px 0;
+}
+
+a {
+  color: $light-black;
+}

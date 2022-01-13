@@ -1,0 +1,20 @@
+.information {
+  padding: 70px 0;
+  background-color: $gray2;
+}
+
+.information p:first-child {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1024px) {
+  .information {
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .information {
+    padding: 50px 0;
+  }
+}

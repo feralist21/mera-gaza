@@ -1,0 +1,30 @@
+.button {
+  display: block;
+  border: none;
+  outline: none;
+  background-color: $blue;
+  color: $white;
+  transition: background-color 0.2s ease-out;
+}
+
+.button--white {
+  display: block;
+  border: none;
+  outline: none;
+  background-color: $white;
+  color: $blue;
+  border: 1px solid $blue;
+  transition: all 0.2s ease-out;
+}
+
+.button--white:hover {
+  background-color: $blue;
+  color: $white;
+  transition: all 0.2s ease-out;
+}
+
+
+.button:hover {
+  background-color: $dark-blue;
+  transition: background-color 0.2s ease-out;
+}

@@ -1,0 +1,54 @@
+.main-reviews {
+  padding: 80px 0 60px;
+}
+
+.main-reviews__title {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  color: $light-black;
+}
+
+.main-reviews__subtitle {
+  font-size: 25px;
+  text-align: center;
+  color: $light-black;
+}
+
+@media (max-width: 1024px) {
+  .main-reviews {
+    padding: 70px 0;
+  }
+
+  .main-reviews__title {
+    font-size: 32px;
+  }
+
+  .main-reviews__subtitle {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-reviews {
+    padding: 50px 0;
+  }
+
+  .main-reviews__title {
+    font-size: 30px;
+  }
+
+  .main-reviews__subtitle {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .main-reviews__title {
+    font-size: 28px;
+  }
+}
+
+.main-reviews__slider {
+  margin-top: 50px;
+}
